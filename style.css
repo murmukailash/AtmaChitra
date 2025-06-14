@@ -1,0 +1,187 @@
+h1 {
+  text-align: center;
+  color: white;
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+}
+#goodContainer {
+  padding: 5px;
+  text-align: center;
+  background-color: green;
+  border-radius: 5px;
+  border: solid #333 1px;
+}
+
+input {
+  height: 35px;
+  width: 90%;
+}
+
+#badContainer {
+  padding: 5px;
+  text-align: center;
+  background-color: red;
+  border-radius: 5px;
+  border: solid #333 1px;
+}
+
+#good {
+  position: relative;
+  padding-bottom: 5px;
+  width: 60px;
+  margin: auto;
+  background-color: green;
+}
+
+#brdr {
+  margin: auto;
+  border: 20px;
+  padding-top: auto;
+  justify-content: center;
+  display: flex;
+}
+
+#judgement {
+  margin-top: 10px;
+  border: solid 1px;
+  border-radius: 5px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+#moksa, #rebirth {
+  align-content: center;
+  border: 20px;
+  border-color: red;
+  width: 5px;
+  height: 40px;
+  margin: auto;
+}
+
+#rebirth {
+  background-color: red;
+}
+
+.moksbtndiv {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+.moksbtn {
+  width: 50%;
+}
+
+#moksa {
+  background-color: green;
+}
+
+#good p, #bad p {
+  position: absolute;
+  bottom: 10px; /* Adjust this value as needed to position your text */
+  left: 0;
+  right: 0;
+  transform: rotate(270deg);
+  transform-origin: center;
+}
+
+#bad {
+  position: relative;
+  padding-bottom: 5px;
+  width: 60px;
+  margin: auto;
+  background-color: red;
+}
+
+#reportTitle {
+  text-align: center;
+}
+
+#report, .formContainer {
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+#report {
+  margin-top: 10px;
+  align-items: flex-end;
+  border: solid 1px;
+  border-radius: 5px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.numBtns {
+  justify-content: center;
+  display: flex;
+}
+
+.gIncrement, .gDecrement, .bIncrement, .bDecrement{
+  height: 35px;
+  width: 50px;
+}
+
+.gSubmit, .bSubmit {
+  height: 40px;
+  width: 80px;
+}
+
+.gSubmit {
+  background-color: white;
+  color: green;
+}
+
+.bSubmit {
+  background-color: white;
+  color: red;
+}
+
+.rIndex {
+  width: 50%;
+  justify-items: center;
+}
+
+
+button, #goodKarma, #badKarma {
+  border-radius: 3px;
+}
+
+.gIncrement, .gDecrement {
+  background-color: white;
+  color: green;
+}
+
+.bIncrement, .bDecrement {
+  background-color: white;
+  color: red;
+}
+.profile {
+  background-color: white;
+  padding: 5px;
+  border: solid #333 1px;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #eee;
+}
+
+#report, #judgement, #formContainer {
+  background-color: white;
+}
+
+#reportTitle {
+  width: 95%;
+  background-color: yellow;
+  color: red;
+  padding: 5px;
+  margin: auto;
+  border: solid #333 1px;
+  border-radius: 5px;
+  text-align: center;
+  
+}
