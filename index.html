@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>Om</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <body>
+    <h1>AtmaChitra</h1>
+     <div id="reportContainer">
+    <h2 id="reportTitle">Report</h2>
+    <div id="report">
+      <div class="rIndex">
+                      <div id="good">
+                <p>Heaven</p>
+                </div>
+      </div>
+      <br><br>
+              <div class="rIndex">
+                        <div id="bad">
+          <p>Hell</p>
+          </div>
+              </div>
+    </div>
+        <div id="judgement">
+          <div id="brdr">
+                      <div id="rebirth">
+            <label>Rebirth</label>
+          </div>
+          &nbsp;
+     <div id="moksa">
+          <label>Moksa</label>
+    </div>
+          </div>
+          <br>
+          <div class="moksbtndiv">
+                      <button class="moksbtn" onclick="attainMoksa()">Offer/Donate Virtues</button>
+            </div>
+    </div>
+  </div>
+  <br>
+  <div class="formContainer">
+    <div id="goodContainer">
+      <br>
+    <input type="number" id="goodKarma">
+    <br><br>
+    <div class="numBtns">
+          <button class="gIncrement" onclick="increGood()">+</button>
+    <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+    <button class="gDecrement" onclick="decreGood()">-</button>
+    </div>
+    <br>
+    <button class="gSubmit" onclick="updateGood()">Virtue</button>
+    <br><br>
+  </div>
+  <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+      <div id="badContainer">
+        <br>
+    <input type="number" id="badKarma">
+    <br><br>
+    <div class="numBtns">
+          <button class="bIncrement" onclick="increBad()">+</button>
+    <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+    <button class="bDecrement" onclick="decreBad()">-</button>
+    </div>
+    <br>
+    <button class="bSubmit" onclick="updateBad()">Sin</button>
+    <br><br>
+  </div>
+    </div>
+    <br>
+    <div class="profile">
+      <p>Name: Kailash Murmu</p>
+      <p>DOB: 01/08/1998</p>
+      <p>Age: 25</p>
+      <p>Father: Shibe Murmu</p>
+      <p>Mother: Chintamani Murmu</p>
+    </div>
+  <script src="script.js"></script>
+  </body>
+</html>
